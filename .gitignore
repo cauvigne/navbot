@@ -1,0 +1,13 @@
+venv/
+.idea/
+__pycache__
+
+
+.env
+/prod.env
+*.session
+*.sqlite
+*.log
+*.pyc
+
+
