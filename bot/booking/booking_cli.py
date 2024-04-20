@@ -48,13 +48,6 @@ async def booking_cli(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             await post_pin_message_channel(context.bot)
             # Try to modify message with buttons
             await update_ui_booking_msg(update.effective_user.id, str(timest), context.bot)
-            # Spam E. Laforge
-            # res = get_shuttle_status(timest)
-            # if res["status"] == "ok":
-            #     if INSTANCE == "PROD":
-            #         await context.bot.send_message(chat_id=TELEGRAM_LAFORGE_ID, text="nouveau statut:\n"+res["msg"])
-            #     else:
-            #         await context.bot.send_message(chat_id=TELEGRAM_AUVIGNE_ID, text=res["msg"])
         elif res_db is not None:
             await context.bot.send_message(chat_id=update.message.chat_id, text=res_db["msg"])
         else:

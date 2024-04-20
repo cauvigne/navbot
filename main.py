@@ -97,11 +97,6 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
 
     print(message)
 
-    # Finally, send the message
-    # await context.bot.send_message(
-    #     chat_id=TELEGRAM_AUVIGNE_ID, text=message, parse_mode=ParseMode.HTML
-    # )
-
 
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(HELP_MSG)

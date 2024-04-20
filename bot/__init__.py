@@ -37,8 +37,6 @@ TELEGRAM_API_HASH = os.environ.get('TELEGRAM_API_HASH')
 TELEGRAM_CHANNEL_NAME = os.environ.get('TELEGRAM_CHANNEL_NAME')
 TELEGRAM_CHANNEL_NAME_PROD = os.environ.get('TELEGRAM_CHANNEL_NAME_PROD')  # For theleton utility
 TELEGRAM_ADMIN_IDS = json.loads(os.environ.get('TELEGRAM_ADMIN_IDS'))
-TELEGRAM_AUVIGNE_ID = os.environ.get('TELEGRAM_AUVIGNE_ID')
-TELEGRAM_LAFORGE_ID = os.environ.get('TELEGRAM_LAFORGE_ID')
 TELEGRAM_BOT_ID = os.environ.get('TELEGRAM_BOT_ID')
 # Minimum people number in the shuttle
 NB_MIN = 4
