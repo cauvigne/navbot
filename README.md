@@ -1,7 +1,7 @@
 # Introduction
 
 NavBot is a python based telegram bot used to schedule and manage shuttles booking.
-It is used for [chablevasion](chablevasion.ch)
+It is used for [chablevasion](https://chablevasion.ch)
 
 It is intended to be used as follow:
 1. The user joins a channel where the schedule shuttles are listed. This channel contains **only one mesage** which is automatically updated by the application.
